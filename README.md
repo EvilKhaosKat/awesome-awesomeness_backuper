@@ -5,3 +5,7 @@ Using torsocks it will bulky calls 'git clone REPOSITORY' for each found git rep
 
 Launch 'python main.py' to do all the stuff.<br>
 By specifying '-dir=awesome_backup_dir' as command line param backup dir can be changed.
+
+###Prerequisites:
+* git
+* torsocks
