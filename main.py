@@ -42,7 +42,7 @@ class Main:
         reps = GitHelper.get_reps_list(aa_main_file)
 
         for rep in reps:
-            print("Cloning {0}. Additional directory specified as:{1}".format(rep.rep_link, rep.rep_dir_name))
+            print("\nCloning {0}. Additional directory specified as:{1}".format(rep.rep_link, rep.rep_dir_name))
             GitHelper.clone_rep(rep.rep_link, dir_to=rep.rep_dir_name)
 
         print("all repos successfully synchronized")
