@@ -1,6 +1,7 @@
 from GithubRep import GithubRep
 import unittest
 
+
 class GithubRepTests(unittest.TestCase):
     def test_constructor_usual(self):
         init_line = "	- [Algorithms](https://github.com/tayllan/awesome-algorithms)"

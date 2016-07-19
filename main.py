@@ -9,6 +9,7 @@ AA_GIT_LINK = "https://github.com/bayandin/awesome-awesomeness.git"
 AA_DIR_NAME = "awesome-awesomeness"
 AA_MAIN_FILE = "README.md"
 
+
 def get_dir_to_clone(argv):
     """
 
@@ -22,7 +23,8 @@ def get_dir_to_clone(argv):
         if arg.startswith("-dir"):
             return arg.split("=")[-1]
 
-    return None
+    return ""
+
 
 class Main:
     def perform_backup(self, dir_to_clone=""):
